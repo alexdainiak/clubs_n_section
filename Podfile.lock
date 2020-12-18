@@ -1,0 +1,102 @@
+PODS:
+  - Alamofire (5.4.0)
+  - AppFoundation (0.0.1)
+  - Coordinator (0.0.1):
+    - Swinject
+  - Coordinators (0.0.1):
+    - Coordinator
+    - Data
+    - HomePage
+    - TabBar
+  - Data (0.0.1):
+    - AppFoundation
+    - Domain
+    - Moya
+    - Network
+    - RxSwift
+    - Swinject
+  - Domain (0.0.1):
+    - RxSwift
+  - FeatureModule (0.0.1)
+  - HomePage (0.0.1):
+    - Domain
+    - FeatureModule
+    - RxSwift
+    - Swinject
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Network (0.0.1):
+    - AppFoundation
+    - Moya
+    - Moya/RxSwift
+    - RxRelay
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - Swinject (2.7.1)
+  - TabBar (0.0.1)
+
+DEPENDENCIES:
+  - AppFoundation (from `Modules/Core/AppFoundation`)
+  - Coordinator (from `Modules/Core/Coordinator`)
+  - Coordinators (from `Modules/Coordinators`)
+  - Data (from `Modules/Data`)
+  - Domain (from `Modules/Domain`)
+  - FeatureModule (from `Modules/Core/FeatureModule`)
+  - HomePage (from `Modules/Features/HomePage`)
+  - Network (from `Modules/Core/Network`)
+  - Swinject (= 2.7.1)
+  - TabBar (from `Modules/Features/TabBar`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
+    - RxRelay
+    - RxSwift
+    - Swinject
+
+EXTERNAL SOURCES:
+  AppFoundation:
+    :path: Modules/Core/AppFoundation
+  Coordinator:
+    :path: Modules/Core/Coordinator
+  Coordinators:
+    :path: Modules/Coordinators
+  Data:
+    :path: Modules/Data
+  Domain:
+    :path: Modules/Domain
+  FeatureModule:
+    :path: Modules/Core/FeatureModule
+  HomePage:
+    :path: Modules/Features/HomePage
+  Network:
+    :path: Modules/Core/Network
+  TabBar:
+    :path: Modules/Features/TabBar
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  AppFoundation: c46469c6e4d846c3ef0cd497fc9579f24e09ca30
+  Coordinator: c79219a76839a914413c554294e0da83ae765233
+  Coordinators: 750b5fb947fb1508bc5fc5a5ccb5194cb15a8fa2
+  Data: ce9bb6888461fff64fa86ebbfaca712a277d10b8
+  Domain: 819216ba27f41b942bebcf5ac82dcca5ee1280f7
+  FeatureModule: 1d5d718e5c1e626b9ebd68cd838be3f2f9ca5f17
+  HomePage: c1dc6d28762366774bc2e1647c1be54173a3ce41
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Network: a2fcea63a89cd1d2dafeebdae90b3ef490798650
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
+  TabBar: f66bcf9e69024273a1b1fc1f65fe0c23e3ea5bf1
+
+PODFILE CHECKSUM: f5ff52eeb24aad261806bf6ff68e698e610bfad5
+
+COCOAPODS: 1.10.0
